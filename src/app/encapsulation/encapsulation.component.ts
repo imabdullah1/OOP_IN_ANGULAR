@@ -34,10 +34,8 @@ export class EncapsulationComponent {
       this._empName = empName;
     }
   }
-
-  // DEF: [Encapsulation isa wrapping of data(feild) and function togather to restrict the direct access of data]
 }
 
 let obj = new EncapsulationComponent();
-console.log(obj.empID());
-console.log(obj.empName());
+// console.log(obj.empID());
+// console.log(obj.empName());
